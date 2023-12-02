@@ -8,6 +8,7 @@ export default class Tab {
       if (target.classList.contains('tab__item-btn')) {
         this.switchTab(target);
       }
+      this.init();
     });
   }
 
